@@ -14,4 +14,4 @@ with open('result.csv', 'r') as result, open("testdata.csv", 'r') as testdata:
             print  t[23],r[1:],t[23] in r[1:]
             if t[23] in r[1:]:
                 k = k+1
-    print k/b
+    print "Accuracy:",k/b
